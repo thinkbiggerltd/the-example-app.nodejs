@@ -5,6 +5,8 @@ metadata:
   description: Think Example App
   tags:
     - node
+  annotations:
+    backstage.io/kubernetes-id: value
 spec:
   type: service
   lifecycle: experimental
