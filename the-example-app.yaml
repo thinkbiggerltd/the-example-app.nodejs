@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: think-example-app
+  description: Think Example App
+  tags:
+    - node
+spec:
+  type: service
+  lifecycle: experimental
+  owner: garrett
+  system: think-engagement-portal
